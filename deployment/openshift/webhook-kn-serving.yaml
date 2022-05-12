@@ -22,7 +22,3 @@ spec:
           readinessProbe:
             httpGet:
               path: /receiver/ready
-    traffic:
-      - tag: v1
-        revisionName: webhook-knative-v1
-        percent: 100
