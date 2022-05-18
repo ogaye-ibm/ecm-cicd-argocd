@@ -30,3 +30,6 @@ spec:
     - tag: jvm
       revisionName: webhook-jvm
       percent: 100
+    #- tag: latest
+      #latestRevision: true
+      #percent: 0
