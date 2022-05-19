@@ -5,7 +5,8 @@ images:
     newTag: 0.0.4
 patchesStrategicMerge:
   - patch-revision.yaml
-resources:
+#resources:
+bases:
   - ../base
 
 
