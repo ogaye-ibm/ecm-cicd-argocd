@@ -5,8 +5,8 @@ metadata:
 spec:
   template:
     metadata:
-      name: webhook-jvm-latest-latest
+      name: webhook-jvm-004
   traffic:
-    - tag: jvm-latest-latest
-      revisionName: webhook-jvm-latest-latest
+    - tag: jvm-004
+      revisionName: webhook-jvm-004
       percent: 100
