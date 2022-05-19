@@ -7,7 +7,7 @@ patchesStrategicMerge:
   - patch-revision.yaml
 resources:
   - ../base
-  - overlays
+  - .
 
 
 
