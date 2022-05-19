@@ -29,7 +29,7 @@ spec:
   traffic:
     - tag: jvm
       revisionName: webhook-jvm
-      percent: 50
+      percent: 25
     - tag: native
       revisionName: webhook-native
-      percent: 50
+      percent: 75
