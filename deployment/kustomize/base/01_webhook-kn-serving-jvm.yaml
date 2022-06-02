@@ -9,7 +9,7 @@ spec:
         autoscaling.knative.dev/maxScale: "5"
         autoscaling.knative.dev/minScale: "0"
         autoscaling.knative.dev/target: "10"
-      name: webhook-jvm-004
+      name: webhook-jvm-003
     spec:
       containers:
       - env:
@@ -27,5 +27,5 @@ spec:
             path: /receiver/ready
   traffic:
   - percent: 100
-    revisionName: webhook-jvm-004
+    revisionName: webhook-jvm-003
     tag: jvm-004
